@@ -6,10 +6,10 @@ package com.ccjjltx.linked;
  * @version 1.0
  * @since 1.8
  */
-public class QueueLinkedList {
+public class DoublePointLinkedQueue {
     private DoublePointLinkedList dp;
 
-    public QueueLinkedList(){
+    public DoublePointLinkedQueue(){
         dp = new DoublePointLinkedList();
     }
     public void insert(Object data){
